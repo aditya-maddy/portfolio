@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.heroAbout{
+    background-image: url(/public/image/heroAbout.png);
+      background-size: cover;
+      text-align: left;
+}
+
+.abouthero1{
+   color: white;
+    margin: 60px 0px 30px 78px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    line-height: 0px;
+}
+
+.abouthero2{
+   color: white;
+   margin: 15px 0px 5px 75px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.abouthero3{
+   color: white;
+   margin: 15px 0px 40px 70px;
+   background-image: url(/public/image/button.png);
+    background-size: cover;
+    opacity: 0.8;
+    
+}
+
+
+.abouthero3:hover{
+    opacity: 1;
+    color: white;
+}
+
+.abouthero4{
+color: white;
+   margin: 15px 0px 10px 0px;
+   background-image: url(/public/image/button.png);
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.abouthero4:hover{
+    opacity: 1;
+    color: white;
+}
+.about2{
+    border: 10px solid rgb(190, 194, 197);
+    border-radius: 8px;
+  
+}
+
+.aditya2{
+   background-image: url("/public/image/adityaphotosimple.png");
+   background-size: cover;
+   height: 420px;
+   width: 370px;
+   border-radius: 12px;
+}
+
+.aboutinfo{
+    text-align: left;
+}
+
+.about4{
+    color: purple;
+    font-weight: bold;
+}
+
+.about5{
+    opacity: 0.9;
+    letter-spacing: 2px;
+}
+
+
+.about6{
+    opacity: 0.9;
+}

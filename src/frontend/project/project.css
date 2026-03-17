@@ -1,0 +1,139 @@
+.project1{
+    background-image: url(/public/image/heronav.png);
+    background-size: cover ;
+    text-align: left;   
+   
+}
+
+.pro1{
+    color: white;
+    font-weight: bold;
+    padding-left: 95px;
+    padding-top: 50px;
+}
+
+.pro2{
+    color: white;
+      padding-left: 95px;
+       padding-top: 10px;
+       padding-bottom: 40px;
+      
+}
+
+.pro3{
+    text-align: left;
+    font-weight: bold;
+     padding-left: 80px;
+    padding-top: 10px;
+    color: darkblue;
+}
+
+.pro4{
+    color: purple;
+    opacity: 0.7;
+    font-weight: 500;
+     padding-left: 80px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+
+.card-group{
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+  border: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    
+}
+
+
+/* Card hover lift */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+}
+
+/* Image container */
+.card-img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Image zoom effect */
+.card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card-img-container:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+/* Overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(4px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+/* Show overlay */
+.card-img-container:hover .overlay {
+  opacity: 1;
+}
+
+/* Buttons style */
+.overlay a {
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+
+  transform: translateY(20px);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+/* Button animation */
+.card-img-container:hover .overlay a {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Individual button styles */
+.overlay a:first-child {
+  background: #24292e; /* GitHub color */
+}
+
+.overlay a:last-child {
+  background: #28a745; /* Live green */
+}
+
+/* Button hover effect */
+.overlay a:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}

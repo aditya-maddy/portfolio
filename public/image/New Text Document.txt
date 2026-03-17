@@ -1,0 +1,25 @@
+1. Poppins (Best Match)
+This is likely the closest match. it has the same circular "o" and clean, open geometric shapes seen in the headings.
+
+Where to find it: Google Fonts - Poppins
+
+Usage: Use Bold (700) for "Hello, I'm..." and Regular (400) for the body text.
+
+2. Montserrat
+Another great choice that is slightly more "technical" and structured. It’s very common in UI/UX design portfolios.
+
+Where to find it: Google Fonts - Montserrat
+
+3. Inter
+If you want something that looks a bit more "app-like" and is extremely easy to read on mobile screens (like the phone mockup on the right), Inter is the industry standard.
+
+Where to find it: Google Fonts - Inter
+
+How to use them like the image:
+To get the exact look, follow this hierarchy:
+
+Main Heading: Poppins, Bold, size 32px - 40px.
+
+Sub-headings (About Me, My Skills): Poppins, Semi-Bold, size 20px - 24px.
+
+Body Text: Poppins (or Inter), Regular, size 14px - 16px with a light grey color (e.g., #555555).

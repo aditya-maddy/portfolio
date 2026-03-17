@@ -1,0 +1,72 @@
+.title {
+  letter-spacing: px;
+}
+
+.homehero {
+  background-image: url(/public/image/heronav.png);
+  width: 100%;
+  background-size: cover;
+  text-align: left;
+}
+
+.hero1 {
+  color: aliceblue;
+  padding: 40px 0px 0px 80px;
+  line-height: 1.5;
+}
+
+.hero2 {
+  color: aliceblue;
+  padding: 0px 0px 0px 80px;
+}
+
+.btnread {
+  width: 8.7rem;
+  background-color: #203dbe70;
+  border: 1px solid transparent;
+  color: wheat;
+  opacity: 0.9;
+  margin: 30px 0px 10px 75px;
+}
+
+.btnread:hover {
+  border: 1px solid white;
+  opacity: 1;
+  color: white;
+}
+
+.hero3 {
+  margin: 0px 0px 5px 65px;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+.hero4 {
+  margin: 0px 0px 5px 65px;
+  opacity: 0.8;
+  color: blueviolet;
+  font-weight: 600;
+  line-height: 2;
+}
+.hero5 {
+  margin: 0px 0px 5px 65px;
+  font-size: smaller;
+  opacity: 0.9;
+}
+
+.hero6 {
+    background-image: url(/public/image/button.png);
+    background-size: cover;
+    margin: 20px 0px 5px 65px;
+    color: aliceblue;
+}
+
+
+
+.aditya{
+    height: 555px;
+    z-index: 10;
+    position: absolute;
+    bottom: 1rem;
+
+}
