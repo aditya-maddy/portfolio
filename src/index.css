@@ -73,7 +73,7 @@ body {
   
 }
 .navimg {
-  background-image: url(/public/image/heronav.png);
+  background-image: url(/image/heronav.png);
   background-size: cover;
   height: 3.7rem;
   color: whitesmoke;

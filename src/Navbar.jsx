@@ -23,8 +23,8 @@ function Navbar() {
                     </div>
                     <div className="col-2 p-5">
                         <div className='row navicon'>
-                            <div className="col-3"><a href="/#"><img src="public\image\growth-svg (1).svg" alt="" style={{ height: "1.7rem", paddingRight: "5px", borderRight: "1.2px solid 	#eaeaea" }} /></a></div>
-                            <div className="col-2"><a href="/#">< img src="public\image\twter-svg (2).svg" alt="" style={{ height: "1.7rem", marginLeft: "px" }} /></a></div>
+                            <div className="col-3"><a href="/#"><img src="/image/growth-svg (1).svg" alt="" style={{ height: "1.7rem", paddingRight: "5px", borderRight: "1.2px solid 	#eaeaea" }} /></a></div>
+                            <div className="col-2"><a href="/#">< img src="/image/twter-svg (2).svg" alt="" style={{ height: "1.7rem", marginLeft: "px" }} /></a></div>
                         </div>
                     </div>
                 </div>

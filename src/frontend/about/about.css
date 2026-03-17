@@ -4,7 +4,7 @@
 }
 
 .heroAbout{
-    background-image: url(/public/image/heroAbout.png);
+    background-image: url(/image/heroAbout.png);
       background-size: cover;
       text-align: left;
 }
@@ -28,7 +28,7 @@
 .abouthero3{
    color: white;
    margin: 15px 0px 40px 70px;
-   background-image: url(/public/image/button.png);
+   background-image: url(/image/button.png);
     background-size: cover;
     opacity: 0.8;
     

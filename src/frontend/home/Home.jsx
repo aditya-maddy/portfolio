@@ -23,7 +23,7 @@ function Home() {
                    
                 </div>
             </div>  
-             <img src="public\image\adityama.png" className='aditya' alt="" />
+             <img src="/image/adityama.png" className='aditya' alt="" />
         </div>
     );
 }

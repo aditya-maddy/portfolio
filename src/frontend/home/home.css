@@ -3,7 +3,7 @@
 }
 
 .homehero {
-  background-image: url(/public/image/heronav.png);
+  background-image: url(/image/heronav.png);
   width: 100%;
   background-size: cover;
   text-align: left;
@@ -55,7 +55,7 @@
 }
 
 .hero6 {
-    background-image: url(/public/image/button.png);
+    background-image: url(/image/button.png);
     background-size: cover;
     margin: 20px 0px 5px 65px;
     color: aliceblue;
